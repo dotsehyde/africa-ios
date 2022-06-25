@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ProductsView: View {
+    @EnvironmentObject var shop: Shop
     var body: some View {
         LazyVGrid(columns: gridLayout, alignment: .center, spacing: 15, pinnedViews: []) {
             ForEach(products) { pro in
                 ProductItem(product: pro)
+                    .onTapGesture {
+                        feedback.impactOccurred()
+                    withAnimation(.easeOut) {
+                        shop.selcetedProduct = pro
+                        shop.detailShown = true
+                    }
+                }
             }
         }.padding(15)
     }
@@ -20,6 +28,7 @@ struct ProductsView: View {
 struct ProductsView_Previews: PreviewProvider {
     static var previews: some View {
         ProductsView()
+            .environmentObject(Shop())
             .previewLayout(.sizeThatFits)
     }
 }
@@ -59,6 +68,7 @@ struct ProductItem: View {
 struct ProductItem_Previews: PreviewProvider {
     static var previews: some View {
         ProductItem(product: products[0])
+
             .previewLayout(.fixed(width: 200, height: 300))
             .padding()
             .background(backgroundColor)

@@ -23,6 +23,15 @@
 		7D7415872867470D00F66C08 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7415862867470D00F66C08 /* ProductModel.swift */; };
 		7D74158928674C0900F66C08 /* BrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74158828674C0900F66C08 /* BrandsView.swift */; };
 		7D74158B28674C2300F66C08 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74158A28674C2300F66C08 /* BrandModel.swift */; };
+		7D74158E2867521700F66C08 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74158D2867521700F66C08 /* ProductDetail.swift */; };
+		7D7415902867533600F66C08 /* DetailNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74158F2867533600F66C08 /* DetailNavigationBarView.swift */; };
+		7D7415922867543D00F66C08 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7415912867543D00F66C08 /* DetailHeaderView.swift */; };
+		7D7415942867552100F66C08 /* DetailHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7415932867552100F66C08 /* DetailHeroView.swift */; };
+		7D7415962867580B00F66C08 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7415952867580B00F66C08 /* CustomShape.swift */; };
+		7D74159828675A7300F66C08 /* DetailRatingSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74159728675A7300F66C08 /* DetailRatingSizeView.swift */; };
+		7D74159A28675D1D00F66C08 /* DetailQuantityFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74159928675D1D00F66C08 /* DetailQuantityFavouriteView.swift */; };
+		7D74159C28675EE400F66C08 /* DetailAddToCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74159B28675EE400F66C08 /* DetailAddToCartView.swift */; };
+		7D74159F2867632400F66C08 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D74159E2867632400F66C08 /* Shop.swift */; };
 		7DE385F9286244E90097E396 /* TouchDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE385F8286244E90097E396 /* TouchDownApp.swift */; };
 		7DE385FB286244E90097E396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE385FA286244E90097E396 /* ContentView.swift */; };
 		7DE385FD286244EB0097E396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE385FC286244EB0097E396 /* Assets.xcassets */; };
@@ -47,6 +56,15 @@
 		7D74158828674C0900F66C08 /* BrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsView.swift; sourceTree = "<group>"; };
 		7D74158A28674C2300F66C08 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		7D74158C286750C200F66C08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		7D74158D2867521700F66C08 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		7D74158F2867533600F66C08 /* DetailNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigationBarView.swift; sourceTree = "<group>"; };
+		7D7415912867543D00F66C08 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		7D7415932867552100F66C08 /* DetailHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroView.swift; sourceTree = "<group>"; };
+		7D7415952867580B00F66C08 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		7D74159728675A7300F66C08 /* DetailRatingSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRatingSizeView.swift; sourceTree = "<group>"; };
+		7D74159928675D1D00F66C08 /* DetailQuantityFavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailQuantityFavouriteView.swift; sourceTree = "<group>"; };
+		7D74159B28675EE400F66C08 /* DetailAddToCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAddToCartView.swift; sourceTree = "<group>"; };
+		7D74159E2867632400F66C08 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		7DE385F5286244E90097E396 /* Touch Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE385F8286244E90097E396 /* TouchDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDownApp.swift; sourceTree = "<group>"; };
 		7DE385FA286244E90097E396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				7D7415672867191D00F66C08 /* Constants.swift */,
+				7D7415952867580B00F66C08 /* CustomShape.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -104,6 +123,14 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		7D74159D2867631900F66C08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D74159E2867632400F66C08 /* Shop.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7DE385EC286244E90097E396 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +150,7 @@
 		7DE385F7286244E90097E396 /* TouchDown */ = {
 			isa = PBXGroup;
 			children = (
+				7D74159D2867631900F66C08 /* Controller */,
 				7D741575286730AF00F66C08 /* Data */,
 				7D7415702867292A00F66C08 /* Extension */,
 				7D74156D286728CC00F66C08 /* Model */,
@@ -150,6 +178,7 @@
 			children = (
 				7DE385F8286244E90097E396 /* TouchDownApp.swift */,
 				7DE385FA286244E90097E396 /* ContentView.swift */,
+				7D74158D2867521700F66C08 /* ProductDetail.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -179,6 +208,12 @@
 		7DE3860C286248310097E396 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				7D74158F2867533600F66C08 /* DetailNavigationBarView.swift */,
+				7D7415912867543D00F66C08 /* DetailHeaderView.swift */,
+				7D7415932867552100F66C08 /* DetailHeroView.swift */,
+				7D74159728675A7300F66C08 /* DetailRatingSizeView.swift */,
+				7D74159928675D1D00F66C08 /* DetailQuantityFavouriteView.swift */,
+				7D74159B28675EE400F66C08 /* DetailAddToCartView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -261,15 +296,24 @@
 				7DE385FB286244E90097E396 /* ContentView.swift in Sources */,
 				7D74156A2867198E00F66C08 /* FooterView.swift in Sources */,
 				7D74158928674C0900F66C08 /* BrandsView.swift in Sources */,
+				7D7415962867580B00F66C08 /* CustomShape.swift in Sources */,
 				7D74157428672EA200F66C08 /* FeaturedView.swift in Sources */,
+				7D74159A28675D1D00F66C08 /* DetailQuantityFavouriteView.swift in Sources */,
+				7D7415942867552100F66C08 /* DetailHeroView.swift in Sources */,
+				7D7415922867543D00F66C08 /* DetailHeaderView.swift in Sources */,
 				7D7415812867379600F66C08 /* CategoryView.swift in Sources */,
 				7DE385F9286244E90097E396 /* TouchDownApp.swift in Sources */,
 				7D7415852867460100F66C08 /* ProductsView.swift in Sources */,
+				7D74159C28675EE400F66C08 /* DetailAddToCartView.swift in Sources */,
+				7D74159828675A7300F66C08 /* DetailRatingSizeView.swift in Sources */,
 				7D7415872867470D00F66C08 /* ProductModel.swift in Sources */,
 				7D7415682867191D00F66C08 /* Constants.swift in Sources */,
 				7D74156C28671E5500F66C08 /* NavigationBarView.swift in Sources */,
+				7D7415902867533600F66C08 /* DetailNavigationBarView.swift in Sources */,
+				7D74158E2867521700F66C08 /* ProductDetail.swift in Sources */,
 				7D74157F286736C300F66C08 /* CategoryModel.swift in Sources */,
 				7D7415722867293B00F66C08 /* JsonExt.swift in Sources */,
+				7D74159F2867632400F66C08 /* Shop.swift in Sources */,
 				7D74158B28674C2300F66C08 /* BrandModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,10 +447,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TouchDown/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Touchdown;
+				INFOPLIST_KEY_CFBundleDisplayName = "Touch Down";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -435,10 +479,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TouchDown/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Touchdown;
+				INFOPLIST_KEY_CFBundleDisplayName = "Touch Down";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
